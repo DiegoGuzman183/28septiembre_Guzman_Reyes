@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Cómo funciona</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .diagrama {
+            width: 700px;
+            margin: auto;
+        }
+
+        .caja {
+            background: white;
+            border: 2px solid #333;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 15px;
+            box-shadow: 0 3px 8px #ccc;
+        }
+
+        .inicio {
+            background: #dbeafe;
+        }
+
+        .proceso {
+            background: #dcfce7;
+        }
+
+        .ingreso {
+            background: #fef3c7;
+        }
+
+        .final {
+            background: #ddd6fe;
+        }
+
+        .flecha {
+            font-size: 30px;
+            color: #333;
+        }
+
+        .clientes {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+        }
+
+        .cliente {
+            flex: 1;
+            background: white;
+            border: 2px solid #555;
+            border-radius: 10px;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Cómo funciona el negocio</h1>
+
+<div class="diagrama">
+
+    <div class="caja inicio">
+        <h2>Inicio</h2>
+        <p>Desarrollo de la plataforma para anticipar problemas y mejorar el rendimiento de los vehículos.</p>
+    </div>
+
+    <div class="flecha">↓</div>
+
+    <div class="caja proceso">
+        <h2>Desarrollo y mantenimiento</h2>
+        <p>Aplicación + servidores + soporte técnico.</p>
+    </div>
+
+    <div class="flecha">↓</div>
+
+    <div class="caja proceso">
+        <h2>Captación de usuarios</h2>
+        <p>Marketing digital, redes sociales y alianzas.</p>
+    </div>
+
+    <div class="flecha">↓</div>
+
+    <div class="caja">
+        <h2>¿Qué tipo de cliente es?</h2>
+
+        <div class="clientes">
+
+            <div class="cliente">
+                <h3>B2C</h3>
+                <p>Conductores particulares</p>
+            </div>
+
+            <div class="cliente">
+                <h3>B2B</h3>
+                <p>Empresas y flotillas</p>
+            </div>
+
+            <div class="cliente">
+                <h3>Alianzas</h3>
+                <p>Talleres y refaccionarias</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="flecha">↓</div>
+
+    <div class="caja ingreso">
+        <h2>Ingreso económico</h2>
+        <p>Suscripciones + licencias + comisiones.</p>
+    </div>
+
+    <div class="flecha">↓</div>
+
+    <div class="caja final">
+        <h2>Reinversión y crecimiento</h2>
+        <p>Mejorar la aplicación, aumentar usuarios y crear nuevas alianzas.</p>
+    </div>
+
+</div>
+
+</body>
+</html>
